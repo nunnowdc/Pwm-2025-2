@@ -31,33 +31,27 @@ export default function Home() {
 
       <br></br>
 
-      <table border="1">
-        <thead>
-            <th>Country Name</th>
-            <th>Country Flag</th>
-            <th>GDP (Millions of USD)</th>
-        </thead>
-        <tr>
-            <td>USA</td>
-            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg/250px-Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg.png" alt="Image not founded" width="200" height="100" /></td>
-            <td>18,561,930</td>
-        </tr>
-        <tr>
-            <td>India</td>
-            <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/250px-Flag_of_India.svg.png" alt="Image not founded" width="200" height="100" /></td>
-            <td>2,250,990</td>
-        </tr>
-        <tr>
-            <td>United Kingdom</td>
-            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/250px-Flag_of_the_United_Kingdom_%281-2%29.svg.png" alt="Image not founded" width="200" height="100" /></td>
-            <td>2,649,890</td>
-        </tr>
-        <tr>
-            <td colSpan={3}>End</td>
-        </tr>
-      </table>
+      <label htmlFor="pokemon">Escolha um jogo: </label>
+      <select name="Pokemon Games" id="games" multiple>
+        <optgroup lable="Gen 1">
+          <option value="fire red">Fire red</option>
+        </optgroup>
+        <option value="diamond and pearl">Diamond and pearl</option>
+        <option value="emerald">Emerald</option>
+      </select>
 
       <br></br>
+
+      <fieldset>
+        <legend>Login</legend>
+        <form target="_blank" method="get">
+        <label htmlFor="email">Email:</label>
+        <input type="email" placeholder="Email" name="email" required></input><br/>
+        <lable htmlFor="senha">Password:</lable>
+        <input type="password" placeholder="Password" name="senha" minLength="8" required></input><br/>
+        <input type="submit" ></input>
+        </form>
+      </fieldset>
 
     </div>
   );
