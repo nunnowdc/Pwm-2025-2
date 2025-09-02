@@ -1,0 +1,12 @@
+{
+  "name": "pwm-2025-2",
+  "version": "1.0.0",
+  "description": "Programação Web Mobile",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
