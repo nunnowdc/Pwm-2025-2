@@ -1,14 +1,15 @@
 import { MyButton } from "@/components/MyButton";
-import { ProductsList } from "@/components/ProductsList";
 import { Contador } from "@/components/Contador";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <div>
       <h1>Welcome to my app</h1>
-
       <hr />
-      <ProductsList />
+      <Link href="/taskList">TaskList</Link>
+      <hr />
+      <Link href="/foodList">Food List</Link>
       <hr />
       <Contador />
       
