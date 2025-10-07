@@ -16,7 +16,6 @@ export default function HomeScreen() {
         style={{ width: 200, height: 200, marginBottom: 20 }}
       />
       <Text style={{ fontWeight: 'bold' }}>Nunno Wakiyama Diniz Carvalho</Text>
-      <Text style={{ fontWeight: 'bold' }}>RA: 00000849115</Text>
 
       <Text style={{ marginTop: 20, textAlign: 'justify' }}> Sou estudante de Ciência da Computação, atualmente cursando o 5º período, com grande interesse em ingressar no mercado de trabalho e adquirir experiência prática na área de tecnologia. No último ano, participei de um projeto de Iniciação Científica (PIBIC - voluntário), onde fui responsável pelo treinamento de uma rede neural para detecção de patologias em edificações, experiência que me proporcionou contato direto com inteligência artificial e aprendizado de máquina. </Text>
 
